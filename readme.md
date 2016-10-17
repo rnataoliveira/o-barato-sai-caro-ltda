@@ -40,7 +40,7 @@ quantidade de minutos igual ao número de itens na pilha que o cliente carrega. 
 se o cliente carrega 5 itens na pilha, o caixa ficará ocupado com esse cliente por 5 minutos.
 Ao deixar o caixa, o valor pago pelo cliente é contabilizado, e o caixa está livre novamente
 para o próximo cliente.
-O custo operacional por cada caixa é de R$ 300; 00, de modo que, ao final da simulação,
+O custo operacional por cada caixa é de R$ 300,00, de modo que, ao final da simulação,
 esse valor deve ser descontado do total ganho com as vendas.
 A simulação deve ser realizada para cada hora mostrada na tabela anterior e para cada
 número de caixas entre 5 e 20, e só termina após simular duas horas de fila para cada
