@@ -1,6 +1,6 @@
 package oBaratoSaiCaroLtda;
 
 
-public class Cliente {
+public class Caixa {
 	
 }
