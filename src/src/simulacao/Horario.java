@@ -29,6 +29,9 @@ public class Horario {
 		return _ate;
 	}
 	
+	/*
+	 * @return o intervalo de tempo em minutos
+	 * */
 	public int minutosTotais(){
 		int intervalo = _ate - _de;
 		return intervalo * 60;

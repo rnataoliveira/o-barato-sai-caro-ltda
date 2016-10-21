@@ -1,5 +1,7 @@
 package mercado;
-
+/*
+ * Representação do cliente
+ * */
 public class Pessoa {
 	private Compra _compra;
 	

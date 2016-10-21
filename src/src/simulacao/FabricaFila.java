@@ -9,7 +9,9 @@ import mercado.Compra;
 import mercado.Pessoa;
 
 public class FabricaFila {
-	
+	/*
+	 * A probabilidade de uma pessoa entrar na fila em um determinado horário
+	 * */
 	public static final Map<Integer, Double> probabilidades = new Hashtable<Integer, Double>() {
 		{
 			put(8, 0.3);
@@ -22,7 +24,9 @@ public class FabricaFila {
 		}
 	};
 	
-	
+	/*
+	 * @return a fila
+	 * */
 	public static Queue<Pessoa> gerarFila(Horario horario) {
 		Queue<Pessoa> fila = new LinkedList<Pessoa>();
 		
@@ -39,6 +43,10 @@ public class FabricaFila {
 		return fila;
 	}
 	
+	/*
+	 * Calcula a probabilidade e diz se uma pessoa deve entrar na fila
+	 * @return tamanho dessa fila
+	 * */
 	private static int calcularTamanhoFila(Horario horario){
 		double probabilidade = probabilidades.get(horario.de());
 		
