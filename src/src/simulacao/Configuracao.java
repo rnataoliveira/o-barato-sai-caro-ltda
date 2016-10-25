@@ -3,11 +3,10 @@ package simulacao;
 import mercado.Caixa;
 
 /*
- * Representa uma configuração de atendimento do mercado para um determinado horario
+ * Representa uma configuração de atendimento do mercado para um determinado horário
  * com uma determinada quantidade de caixas operacionais
  * */
 public class Configuracao {
-
 	private Horario _horario;
 	private Iterable<Caixa> _caixasAtivos;
 	
