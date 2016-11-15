@@ -1,8 +1,6 @@
 package mercado.tests;
 
-import mercado.Compra;
 import mercado.Item;
-
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -12,7 +12,7 @@ public class FabricaFila {
 	/*
 	 * A probabilidade de uma pessoa entrar na fila em um determinado horário
 	 * */
-	public static final Map<Integer, Double> probabilidades = new Hashtable<Integer, Double>() {
+	private static final Map<Integer, Double> probabilidades = new Hashtable<Integer, Double>() {
 		{
 			put(8, 0.3);
 			put(10,0.4);
@@ -58,7 +58,6 @@ public class FabricaFila {
 			if(deveEntrar)
 				tamanho += 1;
 		}
-		
 		return tamanho;
 	}
 }
