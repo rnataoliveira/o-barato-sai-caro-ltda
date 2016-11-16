@@ -13,12 +13,17 @@ public class Resultado {
 	private Configuracao _configuracao;
 	private ArrayList<Cliente> _clientesAtendidos;
 	private Cliente _clienteMaxEspera;	
-	
+	/*
+	 * @param configuração
+	 * @param clientes atendidos
+	 * */
 	public Resultado(Configuracao configuracao) {
 		_configuracao = configuracao;
 		_clientesAtendidos = new ArrayList<Cliente>();
 	}
-	
+	/*
+	 * @return se é satisfatório
+	 * */
 	public boolean ehSatisfatorio() {
 		for (Cliente cliente : _clientesAtendidos) {
 			if(cliente.tempoEspera() > 10)
@@ -34,6 +39,9 @@ public class Resultado {
 			_clienteMaxEspera = cliente;
 	}
 	
+	/*
+	 * @return valor total faturado
+	 * */
 	public double valorFaturadoTotal() {
 		double valorFaturadoTotal = 0;
 		for (Caixa caixa : _configuracao.caixasAtivos()) {
@@ -42,6 +50,9 @@ public class Resultado {
 		return valorFaturadoTotal;
 	}
 	
+	/*
+	 * @return lucro obtido
+	 * */
 	public double lucroObtido() {
 		double lucroObtido = 0;
 		for (Caixa caixa : _configuracao.caixasAtivos()) {
@@ -50,6 +61,9 @@ public class Resultado {
 		return lucroObtido;
 	}
 	
+	/*
+	 * @return custo operacional
+	 * */
 	public double custoOperacionalTotal() {
 		double custoOperacionalTotal = 0;
 		for(Caixa caixa : _configuracao.caixasAtivos()) {
@@ -58,27 +72,38 @@ public class Resultado {
 		return custoOperacionalTotal;
 	}
 	
+	/*
+	 * @return cliente com mais tempo de espera
+	 * */
 	public Cliente clienteMaxEspera() {
 		return _clienteMaxEspera;
 	}
 	
+	/*
+	 * @return resultados
+	 * */
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder(_configuracao.toString());
-		sb.append("");
+		sb.append("\r\n...:::RESULTADO ");
 		
 		if(ehSatisfatorio())
-			sb.append("\nResultado Satisfatório.\n");
+			sb.append("SATISFATÓRIO:::...\r\n");
 		else
-			sb.append("\nResultado Insatisfatório.\n");
+			sb.append("INSATISFATÓRIO:::...\r\n");
 		
-		sb.append("Valor Faturado Total: " + valorFaturadoTotal() + "\n");
-		sb.append("Custo Operacional Total: " + custoOperacionalTotal() + "\n");
-		sb.append("Lucro Obtido: " + lucroObtido() + "\n");
+		sb.append("Valor Faturado Total: R$ " + valorFaturadoTotal());
+		sb.append("\r\n");
+		sb.append("Custo Operacional Total: R$ " + custoOperacionalTotal());
+		sb.append("\r\n");
+		sb.append("Lucro Obtido: R$ " + lucroObtido());
+		sb.append("\r\n");
 		
 		if(_clientesAtendidos.size() > 0) {
-			sb.append("Clientes atendidos: " + _clientesAtendidos.size() + "\n");
-			sb.append("Maior Tempo de Espera: " + _clienteMaxEspera.tempoEspera() + " minutos \n");
+			sb.append("Clientes atendidos: " + _clientesAtendidos.size() + " Clientes");
+			sb.append("\r\n");
+			sb.append("Maior Tempo de Espera: " + _clienteMaxEspera.tempoEspera() + " minutos ");
+			sb.append("\r\n------------------------------------------\r\n");
 			
 		}
 		return sb.toString();

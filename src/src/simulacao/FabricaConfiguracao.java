@@ -1,7 +1,6 @@
 package simulacao;
 
 import java.util.ArrayList;
-
 import mercado.Caixa;
 
 public class FabricaConfiguracao {

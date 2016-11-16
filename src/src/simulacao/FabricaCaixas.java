@@ -1,11 +1,12 @@
 package simulacao;
 
 import java.util.ArrayList;
-
 import mercado.Caixa;
 
 public class FabricaCaixas {
-	
+	/*
+	 * @return lista de caixas
+	 * */
 	public static ArrayList<Caixa> gerarCaixas(int numeroCaixas) {
 		
 		ArrayList<Caixa> listaGerada = new ArrayList<Caixa>();

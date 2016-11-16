@@ -1,7 +1,6 @@
 package simulacao;
 
 import java.util.Random;
-
 import mercado.Compra;
 import mercado.Item;
 

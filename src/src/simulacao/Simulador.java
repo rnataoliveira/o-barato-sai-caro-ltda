@@ -26,22 +26,27 @@ public class Simulador {
 		};
 		
 		List<Configuracao> configuracoesASimular = FabricaConfiguracao.gerarConfiguracoes(horariosASimular, 5, 20);
-	
-		File file = new File("resultados.txt");
+		
+		File file = new File("OBaratoSaiCaroLtda.txt");
 		FileWriter writer;
 		try {
 			writer = new FileWriter(file);
-			
+			/*
+			 * Simula as configurações
+			 * */
 			for (Configuracao configuracao : configuracoesASimular) {
-				System.out.println("Iniciando simulação de configurações.");
+				System.out.println("Iniciando simulação de configuração...");
 				System.out.println("");
 				
 				Resultado resultado = Simulador.simular(configuracao);
 				
 				System.out.println(resultado);
-				
+				/*
+				 * Salva as simulações que foram satisfatórias
+				 * */
 				if(resultado.ehSatisfatorio()) {
-					writer.write(resultado.toString() + "\n");
+					writer.write(resultado.toString());
+					System.out.println(" ");
 				}
 			}
 			writer.close();

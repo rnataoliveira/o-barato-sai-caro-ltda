@@ -1,7 +1,6 @@
 package simulacao;
 
 import java.util.ArrayList;
-
 import mercado.Caixa;
 
 /*
@@ -57,6 +56,6 @@ public class Configuracao {
 	
 	@Override
 	public String toString() {
-		return "Configuração: "+ _horario.de() +" - "+ _horario.ate() +" | Caixas: " + _caixasAtivos.size();
+		return "Configuração: "+ _horario.de() +"h - "+ _horario.ate() +"h | Caixas: " + _caixasAtivos.size();
 	}
 }
