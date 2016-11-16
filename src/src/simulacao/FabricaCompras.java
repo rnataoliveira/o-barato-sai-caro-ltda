@@ -31,6 +31,7 @@ public class FabricaCompras {
 		Compra compraAleatoria = new Compra();
 		
 		for (int i = 0; i < quantidadeItens; i++) {
+			
 			double precoAleatorio = gerarPrecoAleatorio(MIN_PRECO, MAX_PRECO);
 			
 			Item itemAleatorio = new Item(precoAleatorio);
@@ -45,6 +46,7 @@ public class FabricaCompras {
 	 * */
 	private static double gerarPrecoAleatorio(double min, double max){
 		Random rnd = new Random();
+		
 		double preco = min + (max - min) * rnd.nextDouble();
 		
 		return preco;

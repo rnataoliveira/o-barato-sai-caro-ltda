@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 import mercado.Caixa;
 import mercado.Compra;
 import mercado.Item;
-import mercado.Pessoa;
+import mercado.Cliente;
 
 import org.junit.Test;
 
@@ -19,7 +19,7 @@ public class CaixaTests {
 		compra.add(new Item(50));
 		compra.add(new Item(100));
 		
-		Pessoa pessoa = new Pessoa(compra);
+		Cliente pessoa = new Cliente(compra);
 		
 		int tempoAtendimento = caixa.atender(pessoa);
 		
@@ -32,19 +32,19 @@ public class CaixaTests {
 		
 		Compra compra = new Compra();
 		compra.add(new Item(100));
-		Pessoa cliente = new Pessoa(compra);
+		Cliente cliente = new Cliente(compra);
 		
 		caixa.atender(cliente);
 		
 		Compra compra2 = new Compra();
 		compra2.add(new Item(50));
-		Pessoa cliente2 = new Pessoa(compra2);
+		Cliente cliente2 = new Cliente(compra2);
 		
 		caixa.atender(cliente2);
 		
 		Compra compra3 = new Compra();
 		compra3.add(new Item(100));
-		Pessoa cliente3 = new Pessoa(compra3);
+		Cliente cliente3 = new Cliente(compra3);
 		
 		caixa.atender(cliente3);
 		

@@ -1,15 +1,22 @@
 package simulacao;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Queue;
 
 import mercado.Caixa;
-import mercado.Pessoa;
+import mercado.Cliente;
 
 public class Simulador {
 	public static void main(String[] args) {
-		List<Horario> horarios = new ArrayList<Horario> () {
+		/*
+		 * Horários para simular
+		 * */
+		ArrayList<Horario> horariosASimular = new ArrayList<Horario> () {
 			{
 				add(new Horario(8,10));
 				add(new Horario(10, 12));
@@ -20,21 +27,53 @@ public class Simulador {
 			}
 		};
 		
-		List<Configuracao> aSimular = FabricaConfiguracao.gerarConfiguracoes(horarios, 5, 20);
-		
+		List<Configuracao> configuracoesASimular = FabricaConfiguracao.gerarConfiguracoes(horariosASimular, 5, 20);
+	
+		File file = new File("resultados.txt");
+		FileWriter writer;
+		try {
+			writer = new FileWriter(file);
+			
+			for (Configuracao configuracao : configuracoesASimular) {
+				System.out.println("Iniciando simulação de configurações.");
+				System.out.println("");
+				
+				Resultado resultado = Simulador.simular(configuracao);
+				
+				System.out.println(resultado);
+				
+				if(resultado.ehSatisfatorio()) {
+					writer.write(resultado.toString() + "\n");
+				}
+			}
+			writer.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
-	public Resultado simular(Configuracao configuracao){
-		Queue<Pessoa> fila = FabricaFila.gerarFila(configuracao.horario());
+	/*
+	 * @return resultado de configuração
+	 * */
+	public static Resultado simular(Configuracao configuracao){
+		FilaDeClientes fila = new FilaDeClientes(configuracao.horario());
 		
-		int tempoOperacional = 0;
+		Resultado resultado = new Resultado(configuracao);
 		
-		do {
-			int tempoEspera = 0;
-			for (Caixa caixa : configuracao.caixasAtivos()) {
-				tempoEspera += caixa.atender(fila.poll());
+		for (int i = 0; i <= configuracao.horario().minutosTotais(); i++) {
+			for (Caixa caixa : configuracao.caixasOcupados()) {
+				if(caixa.processarItemCompra())
+					continue;
+				Cliente clienteAtendido = caixa.finalizarAtendimento();
+				resultado.adicionarClienteAtendido(clienteAtendido);
 			}
-		} while (!fila.isEmpty());
-		
+			for (Caixa caixa : configuracao.caixasLivres()) {
+				if(fila.size() > 0)
+					caixa.iniciarAtendimento(fila.poll());
+				else break;
+			}
+			fila.aumentarTempoEspera();
+		}
+		return resultado;
 	}
 }

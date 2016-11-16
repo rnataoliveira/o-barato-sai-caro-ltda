@@ -14,7 +14,6 @@ public class Compra extends Stack<Item> {
 		for (Item i : this) {
 			valorTotal += i.preco();
 		}
-		
 		return valorTotal;
 	}
 }

@@ -7,7 +7,7 @@ import mercado.Caixa;
 import mercado.Compra;
 import mercado.Item;
 import mercado.Mercado;
-import mercado.Pessoa;
+import mercado.Cliente;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -25,7 +25,7 @@ public class MercadoTests {
 		compra.add(new Item(150));
 		compra.add(new Item(200));
 
-		Pessoa pessoa = new Pessoa(compra);
+		Cliente pessoa = new Cliente(compra);
 		caixa.atender(pessoa);
 		
 		Caixa caixa2 = new Caixa(0); 
@@ -36,7 +36,7 @@ public class MercadoTests {
 		compra2.add(new Item(150));
 		compra2.add(new Item(200));
 		
-		Pessoa pessoa2 = new Pessoa(compra2);
+		Cliente pessoa2 = new Cliente(compra2);
 		caixa2.atender(pessoa2);
 		
 		Mercado mercado = new Mercado(caixas);

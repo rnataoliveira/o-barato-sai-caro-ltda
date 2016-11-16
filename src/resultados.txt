@@ -1,0 +1,512 @@
+Configuração: 8 - 10 | Caixas: 7
+Resultado Satisfatório.
+Valor Faturado Total: 17403.14447316258
+Custo Operacional Total: 2100.0
+Lucro Obtido: 15303.144473162582
+Clientes atendidos: 29
+Maior Tempo de Espera: 6 minutos 
+
+Configuração: 8 - 10 | Caixas: 9
+Resultado Satisfatório.
+Valor Faturado Total: 14529.430732533036
+Custo Operacional Total: 2700.0
+Lucro Obtido: 11829.430732533036
+Clientes atendidos: 30
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 8 - 10 | Caixas: 10
+Resultado Satisfatório.
+Valor Faturado Total: 18851.41035708507
+Custo Operacional Total: 3000.0
+Lucro Obtido: 15851.410357085075
+Clientes atendidos: 35
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 8 - 10 | Caixas: 11
+Resultado Satisfatório.
+Valor Faturado Total: 14869.617243191795
+Custo Operacional Total: 3300.0
+Lucro Obtido: 11569.617243191795
+Clientes atendidos: 24
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 8 - 10 | Caixas: 12
+Resultado Satisfatório.
+Valor Faturado Total: 21407.652277013047
+Custo Operacional Total: 3600.0
+Lucro Obtido: 17807.652277013047
+Clientes atendidos: 38
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 8 - 10 | Caixas: 13
+Resultado Satisfatório.
+Valor Faturado Total: 17815.733174769353
+Custo Operacional Total: 3900.0
+Lucro Obtido: 13915.733174769355
+Clientes atendidos: 29
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 8 - 10 | Caixas: 14
+Resultado Satisfatório.
+Valor Faturado Total: 16203.810223826338
+Custo Operacional Total: 4200.0
+Lucro Obtido: 12003.810223826338
+Clientes atendidos: 27
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 8 - 10 | Caixas: 15
+Resultado Satisfatório.
+Valor Faturado Total: 17551.250554188788
+Custo Operacional Total: 4500.0
+Lucro Obtido: 13051.250554188786
+Clientes atendidos: 28
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 8 - 10 | Caixas: 16
+Resultado Satisfatório.
+Valor Faturado Total: 20626.993625571056
+Custo Operacional Total: 4800.0
+Lucro Obtido: 15826.993625571056
+Clientes atendidos: 32
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 8 - 10 | Caixas: 17
+Resultado Satisfatório.
+Valor Faturado Total: 18612.66051755702
+Custo Operacional Total: 5100.0
+Lucro Obtido: 13512.660517557022
+Clientes atendidos: 30
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 8 - 10 | Caixas: 18
+Resultado Satisfatório.
+Valor Faturado Total: 18717.01207409466
+Custo Operacional Total: 5400.0
+Lucro Obtido: 13317.012074094657
+Clientes atendidos: 29
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 8 - 10 | Caixas: 19
+Resultado Satisfatório.
+Valor Faturado Total: 18765.297160694845
+Custo Operacional Total: 5700.0
+Lucro Obtido: 13065.297160694845
+Clientes atendidos: 31
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 8 - 10 | Caixas: 20
+Resultado Satisfatório.
+Valor Faturado Total: 13608.11310993254
+Custo Operacional Total: 6000.0
+Lucro Obtido: 7608.113109932538
+Clientes atendidos: 26
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 10 - 12 | Caixas: 11
+Resultado Satisfatório.
+Valor Faturado Total: 16746.24221391125
+Custo Operacional Total: 3300.0
+Lucro Obtido: 13446.242213911251
+Clientes atendidos: 29
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 10 - 12 | Caixas: 12
+Resultado Satisfatório.
+Valor Faturado Total: 23743.905674154685
+Custo Operacional Total: 3600.0
+Lucro Obtido: 20143.905674154685
+Clientes atendidos: 38
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 10 - 12 | Caixas: 13
+Resultado Satisfatório.
+Valor Faturado Total: 22738.73040913044
+Custo Operacional Total: 3900.0
+Lucro Obtido: 18838.730409130436
+Clientes atendidos: 42
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 10 - 12 | Caixas: 14
+Resultado Satisfatório.
+Valor Faturado Total: 20495.020235034368
+Custo Operacional Total: 4200.0
+Lucro Obtido: 16295.020235034372
+Clientes atendidos: 36
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 10 - 12 | Caixas: 15
+Resultado Satisfatório.
+Valor Faturado Total: 26406.52112742411
+Custo Operacional Total: 4500.0
+Lucro Obtido: 21906.52112742411
+Clientes atendidos: 46
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 10 - 12 | Caixas: 16
+Resultado Satisfatório.
+Valor Faturado Total: 16642.24804556566
+Custo Operacional Total: 4800.0
+Lucro Obtido: 11842.248045565657
+Clientes atendidos: 30
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 10 - 12 | Caixas: 17
+Resultado Satisfatório.
+Valor Faturado Total: 23490.453705912005
+Custo Operacional Total: 5100.0
+Lucro Obtido: 18390.453705912
+Clientes atendidos: 41
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 10 - 12 | Caixas: 18
+Resultado Satisfatório.
+Valor Faturado Total: 20367.170810201704
+Custo Operacional Total: 5400.0
+Lucro Obtido: 14967.170810201704
+Clientes atendidos: 42
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 10 - 12 | Caixas: 19
+Resultado Satisfatório.
+Valor Faturado Total: 29087.10338159064
+Custo Operacional Total: 5700.0
+Lucro Obtido: 23387.10338159064
+Clientes atendidos: 44
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 10 - 12 | Caixas: 20
+Resultado Satisfatório.
+Valor Faturado Total: 23212.313603022158
+Custo Operacional Total: 6000.0
+Lucro Obtido: 17212.313603022158
+Clientes atendidos: 43
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 12 - 14 | Caixas: 5
+Resultado Satisfatório.
+Valor Faturado Total: 12838.435634749074
+Custo Operacional Total: 1500.0
+Lucro Obtido: 11338.435634749074
+Clientes atendidos: 21
+Maior Tempo de Espera: 6 minutos 
+
+Configuração: 12 - 14 | Caixas: 6
+Resultado Satisfatório.
+Valor Faturado Total: 16319.80637571542
+Custo Operacional Total: 1800.0
+Lucro Obtido: 14519.80637571542
+Clientes atendidos: 29
+Maior Tempo de Espera: 10 minutos 
+
+Configuração: 12 - 14 | Caixas: 13
+Resultado Satisfatório.
+Valor Faturado Total: 28606.228936647763
+Custo Operacional Total: 3900.0
+Lucro Obtido: 24706.228936647763
+Clientes atendidos: 47
+Maior Tempo de Espera: 3 minutos 
+
+Configuração: 12 - 14 | Caixas: 14
+Resultado Satisfatório.
+Valor Faturado Total: 32896.734715004386
+Custo Operacional Total: 4200.0
+Lucro Obtido: 28696.734715004386
+Clientes atendidos: 54
+Maior Tempo de Espera: 6 minutos 
+
+Configuração: 12 - 14 | Caixas: 16
+Resultado Satisfatório.
+Valor Faturado Total: 26812.48466716991
+Custo Operacional Total: 4800.0
+Lucro Obtido: 22012.48466716991
+Clientes atendidos: 47
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 12 - 14 | Caixas: 17
+Resultado Satisfatório.
+Valor Faturado Total: 28900.85262019194
+Custo Operacional Total: 5100.0
+Lucro Obtido: 23800.85262019194
+Clientes atendidos: 47
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 12 - 14 | Caixas: 18
+Resultado Satisfatório.
+Valor Faturado Total: 34235.0082869458
+Custo Operacional Total: 5400.0
+Lucro Obtido: 28835.008286945795
+Clientes atendidos: 57
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 12 - 14 | Caixas: 19
+Resultado Satisfatório.
+Valor Faturado Total: 27610.623923115858
+Custo Operacional Total: 5700.0
+Lucro Obtido: 21910.623923115858
+Clientes atendidos: 47
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 12 - 14 | Caixas: 20
+Resultado Satisfatório.
+Valor Faturado Total: 27953.76623305025
+Custo Operacional Total: 6000.0
+Lucro Obtido: 21953.76623305025
+Clientes atendidos: 46
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 14 - 16 | Caixas: 5
+Resultado Satisfatório.
+Valor Faturado Total: 14802.891579225245
+Custo Operacional Total: 1500.0
+Lucro Obtido: 13302.891579225245
+Clientes atendidos: 29
+Maior Tempo de Espera: 5 minutos 
+
+Configuração: 14 - 16 | Caixas: 6
+Resultado Satisfatório.
+Valor Faturado Total: 16081.412306094146
+Custo Operacional Total: 1800.0
+Lucro Obtido: 14281.412306094146
+Clientes atendidos: 26
+Maior Tempo de Espera: 2 minutos 
+
+Configuração: 14 - 16 | Caixas: 8
+Resultado Satisfatório.
+Valor Faturado Total: 21285.291262559953
+Custo Operacional Total: 2400.0
+Lucro Obtido: 18885.291262559953
+Clientes atendidos: 32
+Maior Tempo de Espera: 8 minutos 
+
+Configuração: 14 - 16 | Caixas: 11
+Resultado Satisfatório.
+Valor Faturado Total: 30278.35731458955
+Custo Operacional Total: 3300.0
+Lucro Obtido: 26978.35731458955
+Clientes atendidos: 46
+Maior Tempo de Espera: 6 minutos 
+
+Configuração: 14 - 16 | Caixas: 14
+Resultado Satisfatório.
+Valor Faturado Total: 33900.22362201661
+Custo Operacional Total: 4200.0
+Lucro Obtido: 29700.22362201661
+Clientes atendidos: 60
+Maior Tempo de Espera: 6 minutos 
+
+Configuração: 14 - 16 | Caixas: 15
+Resultado Satisfatório.
+Valor Faturado Total: 37003.69591708469
+Custo Operacional Total: 4500.0
+Lucro Obtido: 32503.69591708469
+Clientes atendidos: 61
+Maior Tempo de Espera: 9 minutos 
+
+Configuração: 14 - 16 | Caixas: 16
+Resultado Satisfatório.
+Valor Faturado Total: 36916.580442184444
+Custo Operacional Total: 4800.0
+Lucro Obtido: 32116.580442184437
+Clientes atendidos: 66
+Maior Tempo de Espera: 4 minutos 
+
+Configuração: 14 - 16 | Caixas: 17
+Resultado Satisfatório.
+Valor Faturado Total: 38031.996713828936
+Custo Operacional Total: 5100.0
+Lucro Obtido: 32931.996713828936
+Clientes atendidos: 71
+Maior Tempo de Espera: 2 minutos 
+
+Configuração: 14 - 16 | Caixas: 18
+Resultado Satisfatório.
+Valor Faturado Total: 37781.28675739245
+Custo Operacional Total: 5400.0
+Lucro Obtido: 32381.286757392456
+Clientes atendidos: 69
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 14 - 16 | Caixas: 19
+Resultado Satisfatório.
+Valor Faturado Total: 39333.21128814801
+Custo Operacional Total: 5700.0
+Lucro Obtido: 33633.211288148006
+Clientes atendidos: 62
+Maior Tempo de Espera: 7 minutos 
+
+Configuração: 16 - 18 | Caixas: 5
+Resultado Satisfatório.
+Valor Faturado Total: 13481.924898345656
+Custo Operacional Total: 1500.0
+Lucro Obtido: 11981.924898345656
+Clientes atendidos: 23
+Maior Tempo de Espera: 2 minutos 
+
+Configuração: 16 - 18 | Caixas: 6
+Resultado Satisfatório.
+Valor Faturado Total: 17397.344528752936
+Custo Operacional Total: 1800.0
+Lucro Obtido: 15597.344528752936
+Clientes atendidos: 31
+Maior Tempo de Espera: 3 minutos 
+
+Configuração: 16 - 18 | Caixas: 7
+Resultado Satisfatório.
+Valor Faturado Total: 20460.46572998758
+Custo Operacional Total: 2100.0
+Lucro Obtido: 18360.46572998758
+Clientes atendidos: 37
+Maior Tempo de Espera: 3 minutos 
+
+Configuração: 16 - 18 | Caixas: 8
+Resultado Satisfatório.
+Valor Faturado Total: 24049.65587221463
+Custo Operacional Total: 2400.0
+Lucro Obtido: 21649.65587221463
+Clientes atendidos: 42
+Maior Tempo de Espera: 7 minutos 
+
+Configuração: 16 - 18 | Caixas: 9
+Resultado Satisfatório.
+Valor Faturado Total: 24985.910825541177
+Custo Operacional Total: 2700.0
+Lucro Obtido: 22285.910825541177
+Clientes atendidos: 41
+Maior Tempo de Espera: 4 minutos 
+
+Configuração: 16 - 18 | Caixas: 10
+Resultado Satisfatório.
+Valor Faturado Total: 28154.052142230754
+Custo Operacional Total: 3000.0
+Lucro Obtido: 25154.052142230754
+Clientes atendidos: 48
+Maior Tempo de Espera: 5 minutos 
+
+Configuração: 16 - 18 | Caixas: 11
+Resultado Satisfatório.
+Valor Faturado Total: 30745.986285703497
+Custo Operacional Total: 3300.0
+Lucro Obtido: 27445.986285703497
+Clientes atendidos: 52
+Maior Tempo de Espera: 6 minutos 
+
+Configuração: 16 - 18 | Caixas: 12
+Resultado Satisfatório.
+Valor Faturado Total: 33449.193875305704
+Custo Operacional Total: 3600.0
+Lucro Obtido: 29849.193875305707
+Clientes atendidos: 55
+Maior Tempo de Espera: 6 minutos 
+
+Configuração: 16 - 18 | Caixas: 13
+Resultado Satisfatório.
+Valor Faturado Total: 36326.8607275657
+Custo Operacional Total: 3900.0
+Lucro Obtido: 32426.860727565698
+Clientes atendidos: 63
+Maior Tempo de Espera: 10 minutos 
+
+Configuração: 16 - 18 | Caixas: 14
+Resultado Satisfatório.
+Valor Faturado Total: 36635.894115085546
+Custo Operacional Total: 4200.0
+Lucro Obtido: 32435.89411508555
+Clientes atendidos: 65
+Maior Tempo de Espera: 6 minutos 
+
+Configuração: 18 - 20 | Caixas: 5
+Resultado Satisfatório.
+Valor Faturado Total: 14313.496835344522
+Custo Operacional Total: 1500.0
+Lucro Obtido: 12813.496835344522
+Clientes atendidos: 23
+Maior Tempo de Espera: 2 minutos 
+
+Configuração: 18 - 20 | Caixas: 6
+Resultado Satisfatório.
+Valor Faturado Total: 17520.988512092714
+Custo Operacional Total: 1800.0
+Lucro Obtido: 15720.988512092714
+Clientes atendidos: 28
+Maior Tempo de Espera: 3 minutos 
+
+Configuração: 18 - 20 | Caixas: 7
+Resultado Satisfatório.
+Valor Faturado Total: 19944.06961014794
+Custo Operacional Total: 2100.0
+Lucro Obtido: 17844.06961014794
+Clientes atendidos: 38
+Maior Tempo de Espera: 4 minutos 
+
+Configuração: 18 - 20 | Caixas: 8
+Resultado Satisfatório.
+Valor Faturado Total: 22915.366476597443
+Custo Operacional Total: 2400.0
+Lucro Obtido: 20515.366476597443
+Clientes atendidos: 39
+Maior Tempo de Espera: 3 minutos 
+
+Configuração: 18 - 20 | Caixas: 9
+Resultado Satisfatório.
+Valor Faturado Total: 26251.815168238558
+Custo Operacional Total: 2700.0
+Lucro Obtido: 23551.815168238558
+Clientes atendidos: 44
+Maior Tempo de Espera: 7 minutos 
+
+Configuração: 18 - 20 | Caixas: 10
+Resultado Satisfatório.
+Valor Faturado Total: 27002.87458174379
+Custo Operacional Total: 3000.0
+Lucro Obtido: 24002.87458174379
+Clientes atendidos: 45
+Maior Tempo de Espera: 5 minutos 
+
+Configuração: 18 - 20 | Caixas: 11
+Resultado Satisfatório.
+Valor Faturado Total: 30437.412267072305
+Custo Operacional Total: 3300.0
+Lucro Obtido: 27137.4122670723
+Clientes atendidos: 49
+Maior Tempo de Espera: 10 minutos 
+
+Configuração: 18 - 20 | Caixas: 12
+Resultado Satisfatório.
+Valor Faturado Total: 34760.31942837524
+Custo Operacional Total: 3600.0
+Lucro Obtido: 31160.319428375242
+Clientes atendidos: 63
+Maior Tempo de Espera: 5 minutos 
+
+Configuração: 18 - 20 | Caixas: 13
+Resultado Satisfatório.
+Valor Faturado Total: 35062.851024774165
+Custo Operacional Total: 3900.0
+Lucro Obtido: 31162.85102477416
+Clientes atendidos: 60
+Maior Tempo de Espera: 9 minutos 
+
+Configuração: 18 - 20 | Caixas: 15
+Resultado Satisfatório.
+Valor Faturado Total: 38480.9741676353
+Custo Operacional Total: 4500.0
+Lucro Obtido: 33980.9741676353
+Clientes atendidos: 63
+Maior Tempo de Espera: 10 minutos 
+
+Configuração: 18 - 20 | Caixas: 19
+Resultado Satisfatório.
+Valor Faturado Total: 43615.2091220108
+Custo Operacional Total: 5700.0
+Lucro Obtido: 37915.209122010805
+Clientes atendidos: 77
+Maior Tempo de Espera: 0 minutos 
+
+Configuração: 18 - 20 | Caixas: 20
+Resultado Satisfatório.
+Valor Faturado Total: 41652.542094783515
+Custo Operacional Total: 6000.0
+Lucro Obtido: 35652.542094783515
+Clientes atendidos: 75
+Maior Tempo de Espera: 0 minutos 
+
